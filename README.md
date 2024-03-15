@@ -43,7 +43,7 @@ cd shush
 
   > Read more on [CMakeLists.txt](https://www.jetbrains.com/help/clion/cmakelists-txt-file.html#root-sub)
 
-- Now, in `shu.sh`, change `./code` at `line 34` to `./<your_project_name>`
+- Now, in `shu.sh`, change `./code` at `line 35` to `./<your_project_name>`
 
 ## Resources
 
