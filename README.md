@@ -30,14 +30,21 @@ cd shush
 
 - If you wish to change project name from `code` to a different name in `CMakeLists.txt`
 
-```txt
-cmake_minimum_required(VERSION 3.10)
-project(<your_project_name>)
-        ^^^^^^^^^^^^^^^^^^^
-add_executable(<your_project_name> src/main.cpp)
-               ^^^^^^^^^^^^^^^^^^^
-```
+  ```txt
+  cmake_minimum_required(VERSION 3.10)
+  project(<your_project_name>)
+          ^^^^^^^^^^^^^^^^^^^
 
-> change `code` to a different name
+  set(SOURCES src/main.cpp)
+
+  add_executable(<your_project_name> ${SOURCES})
+                 ^^^^^^^^^^^^^^^^^^^
+  ```
+
+  > Read more on [CMakeLists.txt](https://www.jetbrains.com/help/clion/cmakelists-txt-file.html#root-sub)
 
 - Now, in `shu.sh`, change `./code` at `line 34` to `./<your_project_name>`
+
+## Resources
+
+- Tutorial on [Making cpp packages with CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html#guide:CMake%20Tutorial)
