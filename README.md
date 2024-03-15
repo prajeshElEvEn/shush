@@ -26,7 +26,7 @@ cd shush
 
 ## Configure
 
-> ⚠️ strictly for developers or you might break the code
+> ⚠️ proceed with caution or you might break the code
 
 - If you wish to change project name from `code` to a different name in `CMakeLists.txt`
 
