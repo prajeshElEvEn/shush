@@ -14,7 +14,7 @@ cpp packages template.
 - Clone the repository
 
 ```bash
-git clone
+git clone https://github.com/prajeshElEvEn/shush.git
 cd shush
 ```
 
