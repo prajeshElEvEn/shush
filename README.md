@@ -11,7 +11,7 @@ cpp packages template.
 
 ## Usage
 
-Click on the `Use this template` and voila.
+Click on the `Use this template` button and voila.
 
 ## For developers
 - Clone the repository
