@@ -11,7 +11,19 @@ cpp packages template.
 
 ## Usage
 
-Click on the `Use this template` button and voila.
+- Click on the `Use this template` button to create a repository in your GitHub.
+- Clone your repository.
+- Navigate into the project folder
+
+```bash
+cd shush
+```
+
+- Run `./shu.sh` with `-r` flag
+
+```bash
+./shu.sh -r
+```
 
 ## For developers
 - Clone the repository
